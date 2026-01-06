@@ -13,7 +13,7 @@
 - ⚡ FastAPI 轻量级后端
 
 ## 项目结构
-'''
+```
 .
 ├── frontend
 │   ├── index.html
@@ -21,7 +21,7 @@
 │   └── app.js
 ├── main.py
 └── README.md
-'''
+```
 
 ## 环境要求
 - Python 3.8+
