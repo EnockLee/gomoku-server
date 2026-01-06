@@ -1,6 +1,6 @@
 # 五子棋（局域网版）
 
-这是一个基于 **FastAPI + HTML / CSS / JavaScript** 的局域网五子棋游戏
+这是一个基于 **FastAPI + HTML / CSS / JavaScript** 的局域网五子棋游戏  
 支持两名玩家通过浏览器进行对战，并允许第三方观战。
 
 ## 功能特点
