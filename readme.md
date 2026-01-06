@@ -13,13 +13,15 @@
 - ⚡ FastAPI 轻量级后端
 
 ## 项目结构
+
 ```
-.
+gomoku-server
+├── backend
+│   └── main.py
 ├── frontend
 │   ├── index.html
 │   ├── style.css
 │   └── app.js
-├── main.py
 └── README.md
 ```
 
@@ -33,19 +35,20 @@ git clone <你的仓库地址>
 cd <项目目录>
 
 2. 创建并激活虚拟环境
+```
 python -m venv venv
 Windows：
 venv\Scripts\activate
 macOS / Linux：
 source venv/bin/activate
-
-3. 安装依赖
+```
+4. 安装依赖
 pip install fastapi uvicorn pydantic
 
-4. 启动服务
+5. 启动服务
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
-5. 浏览器访问
+6. 浏览器访问
 http://本机局域网IP:8000/
 
 ## 游戏玩法
