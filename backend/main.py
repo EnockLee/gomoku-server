@@ -158,7 +158,11 @@ def move(req: MoveReq):
     if room.finished:
         return {
             "ok": False,
-            "winner": "black" if room.winner == 1 else "white"
+            "winner": (
+                "black" if room.winner == 1 else
+                "white" if room.winner == 2 else
+                "draw"
+            )
         }
 
     # 校验回合
@@ -201,4 +205,5 @@ def move(req: MoveReq):
     # 切换回合
     room.turn = 2 if room.turn == 1 else 1
     return {"ok": True}
+
 
